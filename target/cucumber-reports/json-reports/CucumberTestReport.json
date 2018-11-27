@@ -1,0 +1,219 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3509300762,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DriverFactory.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Enter details for registration",
+        "description": "",
+        "id": "mercury-home-page;enter-details-for-registration;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 165942655,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DriverFactory.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1295617154,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on Mercury Home page",
+            "match": {
+              "location": "MercurySteps.launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3878587726,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Register option then enter shravanthi and Thuma and 7466977028 and 55HR and London and Kent and DA68JQ and United Kingdom and sraavanthi.thuma@gmail.com and shrav and shrav",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shravanthi",
+                  "offset": 38
+                },
+                {
+                  "val": "Thuma",
+                  "offset": 53
+                },
+                {
+                  "val": "7466977028",
+                  "offset": 63
+                },
+                {
+                  "val": "55HR",
+                  "offset": 78
+                },
+                {
+                  "val": "London",
+                  "offset": 87
+                },
+                {
+                  "val": "Kent",
+                  "offset": 98
+                },
+                {
+                  "val": "DA68JQ",
+                  "offset": 107
+                },
+                {
+                  "val": "United Kingdom",
+                  "offset": 118
+                },
+                {
+                  "val": "sraavanthi.thuma@gmail.com",
+                  "offset": 137
+                },
+                {
+                  "val": "shrav",
+                  "offset": 168
+                },
+                {
+                  "val": "shrav",
+                  "offset": 178
+                }
+              ],
+              "location": "MercurySteps.iClickOnRegisterButton(String,String,String,String,String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55497597,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Register page Should be displayed",
+            "match": {
+              "location": "MercurySteps.IamonRegisteredpage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Homepage"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2459707775,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DriverFactory.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Login with valid credentials",
+        "description": "",
+        "id": "mercury-home-page;login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 147437415,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DriverFactory.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1144204945,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am on Mercury Home page",
+            "match": {
+              "location": "MercurySteps.launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "I click on signIn and enter valid sraavanthi.thuma@gmail.com and shrav",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "I should be logged in",
+            "match": {
+              "location": "MercurySteps.loggedin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Mercury Home Page",
+    "description": "",
+    "id": "mercury-home-page",
+    "keyword": "Feature",
+    "uri": "MercuryHome.feature"
+  }
+]
